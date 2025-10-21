@@ -21,25 +21,12 @@ Project Samarth demonstrates the integration of government datasets to answer co
 
 ## Repository Structure
 Project-Samarth/
-├── src/ # Core code
-│ ├── data_gov.py # Dataset search & download
-│ ├── data_fetcher.py # Load & clean CSVs
-│ ├── data_mapper.py # Canonicalization
-│ ├── integration.py # Align & aggregate datasets
-│ ├── qa_engine.py # Question parsing & answer synthesis
-│ └── utils.py # Logging & provenance helpers
-├── notebooks/ # Interactive demos
-│ ├── 01_data_discovery.ipynb
-│ ├── 02_integration_demo.ipynb
-│ └── 03_qa_demo.ipynb
-├── demos/ # CLI prototype
-│ ├── demo_cli.py
-│ └── example_questions.json
-├── data/ # Optional sample CSVs
-├── docs/ # Documentation
-│ ├── architecture.md
-│ ├── data_sources.md
-│ └── loom_script.md
+Project-Samarth/
+├── src/
+├── notebooks/
+├── demos/
+├── data/
+├── docs/
 ├── requirements.txt
 ├── LICENSE
 └── README.md
